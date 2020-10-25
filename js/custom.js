@@ -16,5 +16,6 @@
   });
   $(window).on('load', function() {
     // Code here executes When the page is loaded
+    $('#my-age').text(String(new Date(new Date() - new Date('1993/12/18')).getFullYear() - 1970));
   });
 }(jQuery));

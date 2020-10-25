@@ -206,32 +206,6 @@
       'rc-mb-0'
     );
 
-    /*----------  About: Testimonials  ----------*/
-
-    var testimonials = tns({
-      container: '#about .testimonials-section .my-slider',
-      items: 2,
-      gutter: 30,
-      "responsive": {
-        "0": {
-          "items": 1,
-          "gutter": 0
-        },
-        "768": {
-          "items": 2,
-          "gutter": 30
-        }
-      },
-      preventScrollOnTouch: 'auto',
-      slideBy: "page",
-      mouseDrag: true,
-      swipeAngle: false,
-      speed: 400,
-      controls: false,
-      autoHeight: true,
-      navPosition: 'bottom'
-    });
-
     /*----------  About: Pricing  ----------*/
 
     /* Removes margin bottom from items in the last row depending on the screen size / how many columns the grid has */
