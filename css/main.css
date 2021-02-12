@@ -1664,6 +1664,10 @@ hr {
   visibility: visible;
 }
 
+.portfolio-img {
+  max-height: 230px;
+}
+
 @media (max-width: 767.98px) {
   #portfolio .portfolio-section .filter-control>li {
     font-size: 14px;
